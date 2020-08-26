@@ -1,0 +1,14 @@
+.CodeMirror-lines{
+  height: 100%;
+  position: relative;
+}
+.CodeMirror-lines >>> .CodeMirror {
+  height: auto;
+  min-height: 500px;
+}
+.CodeMirror-lines >>> .CodeMirror-scroll{
+  min-height: 500px;
+}
+.CodeMirror-lines >>> .cm-s-rubyblue span.cm-string {
+  color: hsl(20, 85%, 61%);
+}
